@@ -1,5 +1,9 @@
 package datastructure;
 
+import javax.naming.NoInitialContextException;
+import java.util.ArrayList;
+import java.util.Iterator;
+
 public class UseArrayList {
 
     public static void main(String[] args) {
@@ -10,6 +14,39 @@ public class UseArrayList {
          *
          */
 
+        ArrayList<String> cityOfFrance = new ArrayList<>();
+        cityOfFrance.add("Paris");
+        cityOfFrance.add("Lyon");
+        cityOfFrance.add("Toulouse");
+        cityOfFrance.add("Marseille");
+
+
+        //to add
+        cityOfFrance.add("Nice");
+
+        //to remove
+        cityOfFrance.remove("Nice");
+
+        //to Retrieve
+        System.out.println(cityOfFrance);
+
+        //to peek
+        System.out.println(cityOfFrance.size());
+        //For each Loop
+        for (int i = 0; i > 4; i++) {
+            System.out.println(cityOfFrance.get(i));
+
+        }
+        //Iterator
+
+        for (Iterator<String> i = cityOfFrance.iterator(); i.hasNext(); ) {
+            String cities = i.next();
+            System.out.println(cities);
+        }
+
+
     }
 
 }
+
+
