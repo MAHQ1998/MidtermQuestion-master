@@ -85,8 +85,18 @@ What is API? Name list of API that you have used so far.
 --Application Programming Interface(API) 'It's a computing interfaces which define interactions between multiple software intermediary.
 
 Does java support multiple inheritance, explain why or why not?
+--In java multiple inheritance is not allowed. Such as a child class can inherit from parent class but it's can not have multiple parents class. In such a
+case it's will create ambiguity.
 What is method overloading and when it happens?
+--Method OverLoading is feature that allows a class to have more then one methode having the same name,
+  if there argument lists are different.
+  so, feature of method over loading is same method name, Different parameters,in the same class.
+  also known as static polymorphism or compile time polymorphism.
+
 Explain exceptions in java and how to handle it.
+--During the execution of java program or an exceptional event problem could occur, and normal flow of the program is
+disrupted. in the event like that exception need to be handle. We can handle the exception with throwing try/catch, this is
+the simplest method of handling exception
 What is static keyword in java? How it has been used in variables and methods ?
 What is final and how it has been used variables and methods?
 What is final, finally and finalize?
