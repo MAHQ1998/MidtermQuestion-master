@@ -1,24 +1,89 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-Ans :
+--Ans :A programming language is a computer language that programmers use to develop software programs, scripts,
+ or other sets of instructions for computers to execute.
 
 What jdk contains or composed of and define each components?
+--The bin directory of the JDK provides a variety of features and tools that aid in the software development process.
+ Some of the more popular JDK utilities include:
+ javac: This utility is used to compile Java source code into Java bytecode.
+ rmic: This utility creates skeletons and stubs for use in Remote Method Invocation (RMI).
+ jar: This compression utility aggregates a multitude of files into a single Java ARchive (JAR) file. The jar utility uses a standard compression algorithm used by all of the most common zip utilities.
+ javadoc: This utility can examine the names of classes and the methods contained within a class, as well as consume special annotations in order to create application programming interface (API) documentation for Java code.
+ wsgen: This generates various artifacts required by Java API for XML Web Services (JAX-WS).
+ javap: This utility disassembles class files, generating information about the methods, properties and attributes of a given compiled component.
 What is IDE?
+_-An alternatives to JDK are Integrated Development Environments (IDE), which are java development tools that help
+ develop Java programs quickly. IDEs are convenient because they have the editing, compiling, building and debugging to be
+ packaged into one Graphical User Interface(GUI).
+
+
 What are the IDEs available in the market to support java?
+--NetBeans , Eclipse, IntelliJ IDEA
 Explain the entire java life cycle.
+--There are 3 main stages in the lifecycle of java programing- Editing the program, Compiling the source code, Executing the byte code.
+at 1st we start writing code in text editor or as we use java supported IDE's from there java compiler compile the file and execute by java virtual
+Machine(JVM) as byte code and out put as machine code 0's and 1's which will be executed by the CPU of the local machine.
 what is class?
+--A class is a named collection of fields that hold data values and methods that operate on those values. Class is basically blueprint of objects model.
+Classes are the most fundamental structural element of all java programming, we can not write java programming without defining a class.
+
 What is object?
+--I real world any object have normally in two characteristic such as it's "State and Behavior". Software objects are conceptually similar to real world
+objects.As an example of a method in a class operate on an object's internal state and serve as the primary mechanism for object to object communication.
+
 What is the entry point of an application?
+--My understanding an entry point of an application would be an accessible information from data frame, in that case here in java the main methode in a class will be
+entry point of an application.
 Why main is static?
+-- Main method always will be static so it's can call by without crating any objects. without static main methode java program will compile but will throw run
+time error.
 Which class is the superclass of all classes?
+--The class that initialized Object is the superclass of all class.
 What is difference between path and classpath variables?
+--Path is an environment variable which used by OS in our local machine and class path is an environment variable which used by java
+compiler to find the path.
 What is the difference between an Interface and Abstract class?
+--An Interface Class only we can define functionality and it's can't have any body, Interface can't Implement but we can extend it. An Abstract class
+will have some more information, we can have methode but we have use abstract for that, Abstract class also allows to create functionality
+that other class can Implement and override. abstract class can only extend one class but it can take advantage of multiple Interfaces.
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+--No we can not make object from Interface and Abstract class but we can extend the Interface and we can Implement Abstract class.
 what is Access Specifier?
+-- Keywords in below are access specifier for controlling access to a class, variable, methods. Such as
+     public --> everywhere
+     private --> same class
+     default --> same package & different package's subclass
+     protected --> same package
 What is OOP ? Define each feature of java OOP.
+--OOP- Object oriented programming is a software development methodology in which a program is conceptualized as a group of objects
+that work together, Objects are created from templates call classes, and they contain data and the code required to use that data. OOp concept in java
+are the main idea behind creating java's object oriented programming. there are few concepts of OOP's. Abstraction, Inheritance, Encapsulation,
+Polymorphism.
+Encapsulation (Information Hiding) : Objects provide the benefit of information hiding.
+Object Oriented programming allows you to encapsulate data that you do not  want users of the object to access.
+Typically, attributes of a class are encapsulated.
+
+Abstraction : Abstraction allows us to focus on only those parts of an object that concern us.
+All the details that are unnecessary to users are encapsulated, leaving only a simple interface to interact with.
+overriding users with only what they need to know is known as abstraction.
+Abstraction lets us ignore the irrelevant details and concentrate on the essentials.
+
+Inheritance : Inheritance is the process by which objects of one class acquire the  properties of objects of another class.
+Inheritance supports the concept of  hierarchical classification. In OOP, the concept of inheritance provides the idea of
+reuseability. This means that we can add additional features to an existing class  without modifying it. This is possible by deriving a new class from the existing one.  The new class will have the combined features of both the classes.
+
+Polymorphism : Polymorphism is having one Interface but with the ability to have multiple implementations.
+It is the ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a
+parent class reference is used to refer to a child class object.
+
 What is Java Package and which package is imported by default?
+--A package is namespace for organizing classes an interfaces in logical manner, Placing code in packages makes a large software project easier to manage.
+
 What is API? Name list of API that you have used so far.
+--Application Programming Interface(API) 'It's a computing interfaces which define interactions between multiple software intermediary.
+
 Does java support multiple inheritance, explain why or why not?
 What is method overloading and when it happens?
 Explain exceptions in java and how to handle it.
