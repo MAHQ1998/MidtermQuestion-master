@@ -14,6 +14,12 @@ public class FortuneEmployee {
      **/
     public static void main(String[] args) {
 
+//        EmployeeInfo employeeInfo = new EmployeeInfo();
+//
+//        EmployeeInfo.calculateEmployeeBonus()
+
+
+
     }
 
 }

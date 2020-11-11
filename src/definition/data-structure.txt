@@ -1,17 +1,37 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-Ans :
+Ans :Data structure provide by the java.util package perform various function, and it's provides a way to store and retrieve
+information in a well-defined manner. Therefore, Datastructures help to manage large amount of data efficiently.
+Usually, efficient data structures are key to designing efficient algorithms.
 
 What are the various operations that can be performed on different Data Structures?
+Ans : Creation, insertion, Searching, sorting, traversing, merging, appending, updating etc..
 List out the areas in which data structures are applied extensively?
+Ans:Compiler Design,Operating System,Database Management System, Statistical analysis package,
+    Numerical Analysis, Graphics, Artificial Intelligence, and Simulation.
 what is an Array?
+Ans: An Array is used to store a collection of data.
+     Array is a container object that holds fixed and sequential collection of elements, number of values of
+     a same type or single type.
+
 what is the difference between the Array and ArrayList?
+Ans: After creation of array it's length is fixed, but Arraylist is variable length collection class.
+     In ArrayList we cannot store primitives data type, we can store Objects. But array can contain both Primitive
+     and Objects in Java.
 what is LinkedList?
+Ans: A common data structure made of chain of nodes in which each node contains a value called linked List.
+   The head pointer points to the first node, and the last element of the list points to null
 How is an Array different from Linked List?
+Ans:
 what is queue?
 what is stack?
+Ans: Stacks are data structure used to model information accessed in a specific order, Stack class in java
+  implemented asa LIFO (last in first out) stack. Which what the last item added to the stack is the
+   first one to be removed.
 what is FIFO and LIFO?
+Ans: Stacks that First in first out is FIFO and Last in first out is LIFO.
+
 what is the order of complexity?
 what is the best case to search an element from an array?
 what is the worst case to search an element from an array?

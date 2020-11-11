@@ -22,6 +22,11 @@ public class Numbers {
         int[] num = new int[1000000];
         storeRandomNumbers(num);
         ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
+
+
+
+
+
         //Selection Sort
         Sort algo = new Sort();
         algo.selectionSort(num);

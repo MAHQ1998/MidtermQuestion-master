@@ -96,8 +96,10 @@ What is method overloading and when it happens?
 Explain exceptions in java and how to handle it.
 --During the execution of java program or an exceptional event problem could occur, and normal flow of the program is
 disrupted. in the event like that exception need to be handle. We can handle the exception with throwing try/catch, this is
-the simplest method of handling exception
+the simplest method of handling exception. But again we need to understand better which exception will work better for our current
+program.
 What is static keyword in java? How it has been used in variables and methods ?
+--Static Keyword use in
 What is final and how it has been used variables and methods?
 What is final, finally and finalize?
 What is a constructor ?

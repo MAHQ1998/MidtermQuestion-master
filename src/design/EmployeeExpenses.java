@@ -1,4 +1,9 @@
 package design;
 
-public class EmployeeBenefit {
+public abstract class EmployeeExpenses  {
+
+    public  abstract  void yearlyBonus();
+
+    public  abstract  void healthInsExp();
+
 }

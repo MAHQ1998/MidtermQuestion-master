@@ -8,6 +8,14 @@ public class Pattern {
          *
          *
          */
+        int input =100;
+
+        for (int i = 1; i <= 1 * input - 1; i++) {
+            for (int j = 0; j < input - Math.abs((input - i)); j++)
+                System.out.print(i);
+            //System.out.println();
+        }
+    }
 
     }
-}
+

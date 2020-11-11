@@ -22,5 +22,7 @@ public interface Employee {
 
     //employee benefit
     void benefitLayout();
+    //employee healthBenefit
+    void healthIns();
 
 }
