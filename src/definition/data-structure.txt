@@ -2,11 +2,12 @@ Please answer the below Data Structure Questions:
 
 why do we need data structure?
 Ans :Data structure provide by the java.util package perform various function, and it's provides a way to store and retrieve
-information in a well-defined manner. Therefore, Datastructures help to manage large amount of data efficiently.
-Usually, efficient data structures are key to designing efficient algorithms.
+   information in a well-defined manner. Therefore, Datastructures help to manage large amount of data efficiently.
+   Usually, efficient data structures are key to designing efficient algorithms.
 
 What are the various operations that can be performed on different Data Structures?
 Ans : Creation, insertion, Searching, sorting, traversing, merging, appending, updating etc..
+
 List out the areas in which data structures are applied extensively?
 Ans:Compiler Design,Operating System,Database Management System, Statistical analysis package,
     Numerical Analysis, Graphics, Artificial Intelligence, and Simulation.
@@ -21,30 +22,51 @@ Ans: After creation of array it's length is fixed, but Arraylist is variable len
      and Objects in Java.
 what is LinkedList?
 Ans: A common data structure made of chain of nodes in which each node contains a value called linked List.
-   The head pointer points to the first node, and the last element of the list points to null
+     The head pointer points to the first node, and the last element of the list points to null
 How is an Array different from Linked List?
-Ans:
+Ans: An array is the data structure that contains a collection of similar type data elements, and Linked list is
+     considered as a non-primitive data structure contains a collection of unordered linked elements known as nodes.
+     Accessing an element in an array is fast, while Linked list takes linear time, so it is quite a bit slower.
+     Arrays are of fixed size. In contrast, Linked lists are dynamic and flexible and can expand and contract its size.
 what is queue?
+Ans: Queue is an abstract data structure, A queue is open at both its ends where one end is always used to insert data
+     and the other is used to remove data. Queue follows First-In-First-Out methodology.
 what is stack?
 Ans: Stacks are data structure used to model information accessed in a specific order, Stack class in java
-  implemented asa LIFO (last in first out) stack. Which what the last item added to the stack is the
-   first one to be removed.
+    implemented asa LIFO (last in first out) stack. Which what the last item added to the stack is the
+    first one to be removed.
 what is FIFO and LIFO?
-Ans: Stacks that First in first out is FIFO and Last in first out is LIFO.
+Ans: FIFO and LIFO are methods for handling data structures Stacks that First in first out is FIFO and Last in first out is LIFO.
+     In FIFO the first element is processed first and the newest element is processed last.
 
 what is the order of complexity?
 what is the best case to search an element from an array?
 what is the worst case to search an element from an array?
 what is tree in data structure?
+Ans: A tree is a nonlinear data structure, compared to arrays, linked lists, stacks and queues which are linear data structures.
+     A tree can be empty with no nodes or a tree is a structure consisting of one node called the root and zero or one or more subtrees.
+
 what is graph in data structure?
+Ans: A graph is a pictorial representation of a set of objects where some pairs of objects are connected by links.
+     The interconnected objects are represented by points termed as vertices, and the links that connect the vertices are called edges.
+
 what is the difference between the HashTable and HashMap?
+Ans: HasTable is slower because it's thread safety or synchronized. Hashtable can take "null" key or value. HashMap is faster because it;s not
+     thread safety or synchronized. Hash map works with key -value.First data is the key and 2nd data is the value.
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+Ans: RDBMS - Arrays, Network data model - Graph, Hierarchical data model - Tree.
+
 How HashMap works in java?
+Ans: Hash maps store data based on some type of key and have an efficiency defined by the map's load factor. The load factor is a floating point
+     number between 0.0 and 1.0 that determines how and when the hash map allocates space for more elements.
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
 What are the different ways of copying an array into another array?
 What is difference between an array and a linked list?
 What is DFS and BFS?
 What is Recursion?
+Ans: Recursion is the technique of making a function call itself directly or indirectly.
+     This technique provides a way to break complicated problems down into simple problems which are easier to solve.
 What are linear and non linear data Structures?
 What is Big-(O)-notation?
 Outlined different kind of sorting algorithm with time complexity?
